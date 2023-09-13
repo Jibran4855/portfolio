@@ -10,6 +10,12 @@
     gap: 7rem;
     justify-content: space-around;
 }
+.About-class .container .left{
+    
+    background-color: #0d0d0d;
+    box-shadow: #ffffff1f 0 2px 4px, #ffffff52 0 2px 16px;
+    transition: all ease .7s;
+}
 
 .About-class .container .right{
     display: flex;
@@ -21,7 +27,7 @@
 
 
 .About-class .container .right .top{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 
     text-align: justify;
     color: #0065e3;
