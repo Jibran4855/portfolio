@@ -1,0 +1,51 @@
+.About-class{
+    background-color: #0d0d0d;
+    color: white;
+    padding: 5rem 6rem;
+    font-family: Poppins,sans-serif;
+}
+
+.About-class .container{
+    display: flex;
+    gap: 7rem;
+    justify-content: space-around;
+}
+
+.About-class .container .right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: Poppins,sans-serif
+
+}
+
+
+.About-class .container .right .top{
+    font-size: 1.8rem;
+
+    text-align: justify;
+    color: #0065e3;
+}
+.About-class .container .right .mid{
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    color:white;
+    text-align: justify;
+}
+
+.About-class .container .right .bottom p{
+    font-size: 1rem;
+    line-height: 1.9rem;
+    color:white;
+    text-align: justify;
+}
+.skill-span{
+    color: #fff;
+    background-color: #0065e3;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.1rem;
+    font-weight: 600;
+    transition: all ease .7s
+}
+
+
