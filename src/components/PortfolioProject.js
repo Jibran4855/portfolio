@@ -4,7 +4,7 @@ const PortfolioProject = (props) => {
     <>
       {props.websiteDetails.map((itm) => (
         <div className="bottom">
-          <div className="containerb">
+          <div className="containerb" style={{ flexDirection: itm.row }}>
             <div className="leftb">
               <img src={itm.picture} />
             </div>

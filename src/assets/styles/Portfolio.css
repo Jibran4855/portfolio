@@ -101,16 +101,7 @@ font-size: 1.5rem;
     gap: 1rem;
 }
 
-.Portfolio-class .container .bottom .containerb .rightb .midb .midbtn span:first-child {
-    padding: 0.4rem 0.7rem;
-    background-color: #0065e3;
-    font-weight: 600;
-    color: #fff;
-    border-radius: 0.2rem;
-    transition: all ease .7s;
-}
-
-.Portfolio-class .container .bottom .containerb .rightb .midb .midbtn span:last-child {
+.Portfolio-class .container .bottom .containerb .rightb .midb .midbtn span {
     padding: 0.4rem 0.7rem;
     background-color: #0065e3;
     font-weight: 600;
