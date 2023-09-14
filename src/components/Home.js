@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../assets/images/programmer.png";
+import jibran from "../assets/images/Jibran1.png";
 import html5 from "../assets/images/html5.png";
 import css from "../assets/images/css.png";
 import js from "../assets/images/js.png";
@@ -21,7 +22,7 @@ const Home = (props) => {
           </p>
         </div>
         <div className="profile-pic">
-          <img src={img} width="400" height="250" />
+          <img src={jibran} width="400" height="350" />
         </div>
       </div>
       <div className="bottom">

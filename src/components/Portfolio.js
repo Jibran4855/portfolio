@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../assets/styles/Portfolio.css";
 import newmethods from "../assets/images/learnnewmethods.png";
+import norvido from "../assets/images/norvido.jpg";
 import PortfolioProject from "./PortfolioProject";
 
 const Portfolio = (props) => {
@@ -13,6 +14,24 @@ const Portfolio = (props) => {
       picture: newmethods,
       githublink: "https://github.com/Jibran4855/LearningNewMethods",
       livewebsitelink: "https://jibran4855.github.io/LearningNewMethods/",
+      row: "row",
+    },
+    {
+      name: "AuroraLabz (Rebranded to Norvido)",
+      paragraph:
+        "Nordivo stands as your global partner in the development of decentralized technologies, encompassing blockchains and software solutions. Our core mission is enable you with designing, developing, and deploying state-of-the-art solutions for web3. As a rapidly expanding organization, we operate on a global scale, with a remote-first approach and a diverse team of engineers, researchers, and cryptographers spread across two continents",
+      technologies: [
+        "Javascript",
+        "JQuery",
+        "HTML5",
+        "ReactJS",
+        "NodeJS",
+        "CSS",
+      ],
+      picture: norvido,
+      githublink: "https://nordivo.com/",
+      livewebsitelink: "https://nordivo.com/",
+      row: "row-reverse",
     },
   ]);
 
