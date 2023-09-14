@@ -17,9 +17,9 @@ const Portfolio = (props) => {
       row: "row",
     },
     {
-      name: "AuroraLabz (Rebranded to Norvido)",
+      name: "AuroraLabz (Rebranded to Nordivo)",
       paragraph:
-        "Nordivo stands as your global partner in the development of decentralized technologies, encompassing blockchains and software solutions. Our core mission is enable you with designing, developing, and deploying state-of-the-art solutions for web3. As a rapidly expanding organization, we operate on a global scale, with a remote-first approach and a diverse team of engineers, researchers, and cryptographers spread across two continents",
+        "Nordivo stands as your global partner in the development of decentralized technologies, encompassing blockchains and software solutions. Our core mission is enable you with designing, developing, and deploying state-of-the-art solutions for web3. As a rapidly expanding organization, we operate on a global scale, with a remote-first approach and a diverse team of engineers",
       technologies: [
         "Javascript",
         "JQuery",

@@ -55,3 +55,90 @@
 }
 
 
+
+/* 
+Media Queries */
+
+@media (max-width: 320px) {
+    /* … */
+    .About-class .container .left img{ 
+        width: 280px;
+        height: 250px;
+
+    }
+    .About-class .container{
+        gap:0rem;
+        flex-direction: column;
+    }
+    .About-class{
+        padding: 2rem 2rem;
+    }
+  }
+
+  
+@media (min-width: 321px) and (max-width: 375px) {
+    /* … */
+    .About-class .container .left img{ 
+        width: 280px;
+        height: 250px;
+
+    }
+    .About-class .container{
+        gap:0rem;
+        flex-direction: column;
+    }
+    .About-class{
+        padding: 2rem 2rem;
+    }
+  }
+
+  
+@media (min-width: 376px) and (max-width: 425px) {
+    /* … */
+    .About-class .container .left img{ 
+        width: 280px;
+        height: 250px;
+
+    }
+    .About-class .container{
+        gap:0rem;
+        flex-direction: column;
+    }
+    .About-class{
+        padding: 2rem 2rem;
+    }
+  }
+
+  
+@media (min-width: 426px) and (max-width: 768px) {
+    /* … */
+    .About-class .container .left img{ 
+        /* width: 280px;
+        height: 250px; */
+
+    }
+    .About-class .container{
+        gap:0rem;
+        flex-direction: column;
+    }
+    .About-class .container .right .top {
+        text-align: CENTER;
+    }
+    .About-class .container .right {
+        gap: 0rem;
+    }
+    .About-class .container .right .mid {
+        font-size: 1.5rem;
+    }
+    .About-class .container .right .bottom p {
+        font-size: 1.3rem;
+    }
+  }
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* … */
+  }
+  
+@media (min-width: 1025px) {
+    /* … */
+  }
