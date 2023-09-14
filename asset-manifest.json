@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a15ba0e4.css",
+    "main.js": "/portfolio/static/js/main.0b90a623.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/norvido.jpg": "/portfolio/static/media/norvido.b31814eff89a168afa89.jpg",
+    "static/media/learnnewmethods.png": "/portfolio/static/media/learnnewmethods.2bb0c5711d5cca64e3b1.png",
+    "static/media/programmer.png": "/portfolio/static/media/programmer.c66eea6b1525f5569e56.png",
+    "static/media/insta.webp": "/portfolio/static/media/insta.eee5ef3f2824e5990fc3.webp",
+    "static/media/Jibran1.png": "/portfolio/static/media/Jibran1.9d43bc3d6f03d45241dd.png",
+    "static/media/About1.png": "/portfolio/static/media/About1.7f25259fe2be7c195290.png",
+    "static/media/location.png": "/portfolio/static/media/location.73948584a92a3fc87a6f.png",
+    "static/media/whatsapp_.png": "/portfolio/static/media/whatsapp_.d026940870fb334920b7.png",
+    "static/media/database.png": "/portfolio/static/media/database.96af83e68e3b32fb2dd7.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/c-sharp.png": "/portfolio/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/mail.png": "/portfolio/static/media/mail.1354a7242c948389fbaf.png",
+    "static/media/react.png": "/portfolio/static/media/react.44319306359c7112276d.png",
+    "static/media/fb.png": "/portfolio/static/media/fb.f09b3f91518a7a1d1ad8.png",
+    "static/media/html5.png": "/portfolio/static/media/html5.75f4bd59119c8461c00c.png",
+    "static/media/css.png": "/portfolio/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/linkedIn.png": "/portfolio/static/media/linkedIn.6892b3ae328c7a1e055f.png",
+    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.a15ba0e4.css.map": "/portfolio/static/css/main.a15ba0e4.css.map",
+    "main.0b90a623.js.map": "/portfolio/static/js/main.0b90a623.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a15ba0e4.css",
+    "static/js/main.0b90a623.js"
+  ]
+}
