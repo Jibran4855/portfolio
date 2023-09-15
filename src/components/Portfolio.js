@@ -3,6 +3,7 @@ import "../assets/styles/Portfolio.css";
 import newmethods from "../assets/images/learnnewmethods.png";
 import norvido from "../assets/images/norvido.jpg";
 import PortfolioProject from "./PortfolioProject";
+import portfolio from "../assets/images/portfolio.jpg";
 
 const Portfolio = (props) => {
   const [websiteDetails, setWebsiteDetail] = useState([
@@ -32,6 +33,16 @@ const Portfolio = (props) => {
       githublink: "https://nordivo.com/",
       livewebsitelink: "https://nordivo.com/",
       row: "row-reverse",
+    },
+    {
+      name: "My Portfolio",
+      paragraph:
+        "My portfolio project reflects my passion for creativity and problem-solving. Each project I've undertaken has been an opportunity to learn, grow, and showcase my skills. From web development to graphic design, I take pride in delivering solutions that not only meet but exceed expectations. My portfolio represents the journey I've embarked on in my career, and I'm excited to continue exploring new challenges and creating meaningful work that leaves a lasting impact.",
+      technologies: ["Javascript", "ReactJS", "CSS"],
+      picture: portfolio,
+      githublink: "https://github.com/Jibran4855/portfolio",
+      livewebsitelink: "https://jibran4855.github.io/portfolio/",
+      row: "row",
     },
   ]);
 
