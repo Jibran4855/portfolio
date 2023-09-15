@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../assets/styles/Contact.css";
 import location from "../assets/images/location.png";
 import mail from "../assets/images/mail.png";
@@ -8,6 +8,39 @@ import fb from "../assets/images/fb.png";
 import insta from "../assets/images/insta.webp";
 
 const Contact = () => {
+  const [contactDetails, setContactDetails] = useState([
+    {
+      img: location,
+      title: "Location",
+      description: "Lahore Pakistan 📍",
+    },
+    {
+      img: mail,
+      title: "Mail",
+      description: "jibrannaeem4855@gmail.com",
+    },
+    {
+      img: whatsapp,
+      title: "Whatsapp",
+      description: "0333********",
+    },
+    {
+      img: LinkedIn,
+      title: "LinkedIn",
+      description: "jibranmuhammadnaeem",
+    },
+    {
+      img: fb,
+      title: "Facebook",
+      description: "Jibran Muhammad Naeem",
+    },
+    {
+      img: insta,
+      title: "Instagram",
+      description: "Jibran Muhammad Naeem",
+    },
+  ]);
+
   return (
     <div className="contact-class">
       <div className="container">
@@ -16,72 +49,19 @@ const Contact = () => {
           <h2>Don't be shy! Hit me up! 👇</h2>
         </div>
         <div className="bottom">
-          <div className="subbottom">
-            <a href="#">
-              <div className="left">
-                <img src={location} />
-              </div>
-              <div className="right">
-                <span>Location</span>
-                <span>Lahore Pakistan 📍</span>
-              </div>
-            </a>
-          </div>
-          <div className="subbottom">
-            <a href="#">
-              <div className="left">
-                <img src={mail} />
-              </div>
-              <div className="right">
-                <span>Mail</span>
-                <span>jibrannaeem4855@gmail.com</span>
-              </div>
-            </a>
-          </div>
-          <div className="subbottom">
-            <a href="#">
-              <div className="left">
-                <img src={whatsapp} />
-              </div>
-              <div className="right">
-                <span>Whatsapp</span>
-                <span>0333********</span>
-              </div>
-            </a>
-          </div>
-          <div className="subbottom">
-            <a href="#">
-              <div className="left">
-                <img src={LinkedIn} />
-              </div>
-              <div className="right">
-                <span>LinkedIn</span>
-                <span>jibranmuhammadnaeem</span>
-              </div>
-            </a>
-          </div>
-          <div className="subbottom">
-            <a href="#">
-              <div className="left">
-                <img src={fb} />
-              </div>
-              <div className="right">
-                <span>Facebook</span>
-                <span>Jibran Muhammad Naeem</span>
-              </div>
-            </a>
-          </div>
-          <div className="subbottom">
-            <a href="#">
-              <div className="left">
-                <img src={insta} />
-              </div>
-              <div className="right">
-                <span>Instagram</span>
-                <span>Jibran Muhammad Naeem</span>
-              </div>
-            </a>
-          </div>
+          {contactDetails.map((itm) => (
+            <div className="subbottom">
+              <a href="#">
+                <div className="left">
+                  <img src={itm.img} />
+                </div>
+                <div className="right">
+                  <span>{itm.title}</span>
+                  <span>{itm.description}</span>
+                </div>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </div>
