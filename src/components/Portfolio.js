@@ -9,7 +9,7 @@ const Portfolio = (props) => {
     {
       name: "Learning Website",
       paragraph:
-        "This is my learning purpose website to developed in ReactJS FrontEnd Project in 2 days. Basically its a challege for me to developthis website in minimum days. And I Completed the Challenge in 2days by giving my 100% effort.",
+        "This website serves as my learning project, developed using ReactJS for the frontend. I aimed to complete this challenge within a two-day timeframe. It was a personal challenge for me to develop this website in such a short period, and I successfully completed it by putting in 100% effort.",
       technologies: ["ReactJS", "CSS"],
       picture: newmethods,
       githublink: "https://github.com/Jibran4855/LearningNewMethods",
